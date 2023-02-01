@@ -1,0 +1,26 @@
+html {
+  height: 100vh;
+}
+
+body {
+  background: #ededed;
+}
+
+.box {
+  position: relative;
+  border: 1px solid black;
+  background-color: aliceblue;
+  height: 120vh;
+}
+
+#first-box {
+  background-color: antiquewhite;
+}
+
+.sticker {
+  width: fit-content;
+  position: sticky;
+  top: 50%;
+  right: 10%;
+  transform: rotate(60deg);
+}
