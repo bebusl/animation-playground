@@ -1,0 +1,35 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  place-items: center;
+  box-sizing: border-box;
+}
+
+h1 {
+  margin: 10px;
+}
+
+.item {
+  width: 15rem;
+  height: 5rem;
+  border-radius: 10px;
+  border: 1px solid #b7b7b7;
+  box-shadow: 5px 5px 5px rgb(235, 235, 235);
+  display: grid;
+  place-items: center;
+  transform: translateX(400%);
+  transition: transform 0.4s ease-in;
+}
+
+.item:nth-child(even) {
+  transform: translateX(-400%);
+}
+.item.show {
+  transform: translateX(0);
+}
+
+.box {
+  font-size: 22px;
+}
