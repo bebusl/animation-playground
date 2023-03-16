@@ -1,0 +1,36 @@
+html {
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+body {
+  background: #ededed;
+}
+
+#snap-container {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+}
+
+#snap-container,
+.box {
+  width: 100vw;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+.box {
+  scroll-snap-align: start;
+}
+
+#first-box {
+  background-color: antiquewhite;
+}
+
+/* .sticker {
+  width: fit-content;
+  position: sticky;
+  top: 50%;
+  right: 10%;
+  transform: rotate(60deg);
+} */
